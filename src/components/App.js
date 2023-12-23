@@ -41,7 +41,7 @@ const App = () => {
                  setname2("")
             
                 setRelationship("")
-               }} type="reset">Clear</button>
+               }} type="reset" data-testid="clear">Clear</button>
                <h3 data-testid="answer">{relationship}</h3>
             </div>
         )
